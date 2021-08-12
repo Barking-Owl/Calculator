@@ -1,3 +1,5 @@
+#The Calculator Class
+
 class Calculator: 
     def calculate(self):
         active = True
@@ -23,17 +25,17 @@ class Calculator:
             sign = input("Input a sign: ")
             result = 0 #By default result is zero.
 
-            if (sign == '+'):
+            if (sign == '+'): #Addition
                 result = x + y
-            elif (sign == '-'):
+            elif (sign == '-'): #Subtraction
                 result = x - y
-            elif (sign == '*') or (sign == 'x'):
+            elif (sign == '*') or (sign == 'x'): #Multiplication, accepts either x or *
                 result = x * y
-            elif (sign == '/'):
+            elif (sign == '/'): #Division
                 result = x / y
-            elif (sign == '%'):
+            elif (sign == '%'): #Modulo. Returns remainder.
                 result = x % y
-            else:
+            else: #Possible implementation: Since a number next to another implies multiplication, the default could be multiplication.
                 result = 0
             print("Your result is, " + str(result))
             answer = input("Continue? (input y to continue, anything else will quit the app).") #Maybe as long as it has a single y in it.
@@ -41,6 +43,7 @@ class Calculator:
                 active = True
             else:
                 active = False
+#End Calculator Class
 
 def main():
     a = Calculator()
