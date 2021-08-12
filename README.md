@@ -9,3 +9,10 @@ Simple apps that have only one file.
 - Random Choice: Continually repeats inputs until user inputs a certain command, then returns that list in full as well as the selected choice.
 
 - Reverse and Mix: Given a string of characters, reverses it, and mixes it up.
+
+## Planned Apps
+- Hangman
+
+- Extended Calculator
+
+- Rock Paper Scissors
