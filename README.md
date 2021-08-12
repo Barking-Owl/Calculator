@@ -3,8 +3,7 @@ Simple apps that have only one file.
 
 # Contents
 
-# PYTHON
-
+## Python
 - Calculator: Performs mathematical operations.
 
 - Random Choice: Continually repeats inputs until user inputs a certain command, then returns that list in full as well as the selected choice.
