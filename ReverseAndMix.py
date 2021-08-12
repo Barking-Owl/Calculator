@@ -1,3 +1,5 @@
+#Case Sensitive
+
 text = input("Enter text: ")
 rev = text[::-1]
 print("Your reversed word: ")
