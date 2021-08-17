@@ -24,5 +24,5 @@ dice = input("Input the amount of sides your dice has: ") #Amount of sides of th
 #Results of dice roll
 print("Your dice roll landed on: " + dice)
       
-#Rolling another dice for advantage/disadvantage?
+#Rolling another dice for advantage (Takes the higher roll)/disadvantage (Takes the lower roll)?
 
