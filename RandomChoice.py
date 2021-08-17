@@ -15,7 +15,7 @@ for r in range(len((things))):
     print (things[r])
 print("The chosen option was: " + s)
 
-#This code is also used in the Hangman project in this Repository. 
+#The above code is also used in the Hangman project in this Repository. 
 
 dice = input("Input the amount of sides your dice has: ") #Amount of sides of the dice. Should accept ONLY Integers.
 
